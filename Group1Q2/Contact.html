@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFD580;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("basketball.PNG");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px" style="color:black">Contact Us</h1>
+  </div>
+</div>
+
+<style>
+body {
+  margin: 0;
+  font-size: 23px;
+  font-family: Helvetica;
+}
+
+#navDiv {
+  z-index: 1;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #CC5500;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #F28C28;
+  color: black;
+}
+
+
+.content {
+  padding: 120px;
+  font-family: arial;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 120px;
+}
+</style>
+
+<div id="navbar">
+  <a class="active" href="Homepage.html">Home</a>
+  <a href="Our Content.html">Our Content</a>
+  <a href="About Us.html">About us</a>
+  <a href="Contact.html">Contact us</a>
+  <a href="Our Events.html">Our Events</a>
+</div>
+
+<div class="content">
+
+
+<style>
+
+
+div.c {
+  text-align: center;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+
+
+</style>
+
+
+   <div class="c">
+   
+   <h5>If any questions or feedback come into mind, feel free to send us an email anytime.</h5>
+   
+  </div>
+
+
+<div class="container">
+<ul class="myUL">
+  <li>Zyla Rodejo (Facilitator): ap.zyla.rodejo@apecschools.edu.ph</li>
+  <li>Franzesca Kiel Rodriguez (Scribe): ap.franzescakiel.rodriguez@apecschools.edu.ph</li>
+  <li>Sabrina Denisse Escandor (Scribe): ap.sabrinadenisse.escandor@apecschools.edu.ph</li>
+  <li>Lance Jem Ramos (Spokesperson): ap.lancejem.ramos@apecschools.edu.ph</li>
+  <li>Jan Andrei Bauson (Spokesperson): ap.janandrei.bauson@apecschools.edu.ph</li>
+  <li>Juan Miguel Lauron (Spokesperson): ap.juanmiguel.lauron@apecschools.edu.ph</li>
+</ul>
+</div>
+
+<style>
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 27%;
+}
+
+</style>
+
+<div class="center">
+<img src="telepon.png" alt="telepon" class="center">
+</div>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+</body>
+</html>
